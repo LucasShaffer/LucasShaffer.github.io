@@ -1,166 +1,172 @@
-<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<nav id="navbar" class="nav">
-  <p id="header">&lt;dev id="lucas"&gt;</p>
-  <button id="menu-button" class="dropbtn" onclick="toggleMenu()">
-    <i class="fa fa-bars"></i>
-  </button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="#welcome-section">Home</a>
-    <a href="#about-section">What I do</a>
-    <a href="#who-i-am-section">Who I am</a>
-    <a href="#projects">My Work</a>
-  </div>
-</nav>
-
-<section class="welcome-section" id="welcome-section">
-  <div id="intro-wrapper">
-    <p id="greeting">Hi, I am</p>
-    <h1 id="name">Lucas Shaffer</h1>
-    <p id="role">FULL-STACK DEV</p>
-  </div>
-
-  <div id="img-wrapper">
-    <img height="249px" width="249px" src="https://drive.google.com/uc?id=1GJrXk9C-B8SqGRx7Q722ko_5DW6Zi9YJ" id="profile-pic">
-  </div>
-</section>
-
-<section class="about-section" id="about-section">
-  <h1 id="what-i-do">What I do</h1>
-  <div id="third-underline"></div>
-  <div id="info-wrapper">
-    <div>
-      <h5 id="what-i-do-category">Web Development</h5>
-      <div id="dev-info">
-      <p id="info-title">Full-stack development:</p>
-      <ul id="dev-list">
-        <li>Ruby on Rails</li>
-        <li>ReactJS</li>
-        <li>MobX</li>
-        <li>Bootstrap</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>SQL</li>
-      </ul>
-      <p id="info-title">Testing:</p>
-      <ul id="dev-list">
-        <li>Jest</li>
-        <li>Mocha</li>
-        <li>Chai</li>
-        <li>Sinon</li>
-        <li>Selenium</li>
-      </ul>
+<!DOCTYPE html>
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.babel"></script>
+</head>
+<body>
+  <nav id="navbar" class="nav">
+    <p id="header">&lt;dev id="lucas"&gt;</p>
+    <button id="menu-button" class="dropbtn" onclick="toggleMenu()">
+      <i class="fa fa-bars"></i>
+    </button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#welcome-section">Home</a>
+      <a href="#about-section">What I do</a>
+      <a href="#who-i-am-section">Who I am</a>
+      <a href="#projects">My Work</a>
     </div>
+  </nav>
+
+  <section class="welcome-section" id="welcome-section">
+    <div id="intro-wrapper">
+      <p id="greeting">Hi, I am</p>
+      <h1 id="name">Lucas Shaffer</h1>
+      <p id="role">FULL-STACK DEV</p>
     </div>
-    <div>
-      <h5 id="what-i-do-category">App Development</h5>
-      <div id="dev-info">
-      <p id="info-title">IOS and Android development:</p>
-      <ul id="dev-list">
-        <li>React Native</li>
-        <li>JavaScript</li>
-        <li>Firebase</li>
-        <li>NodeJS</li>
-        <li>Python</li>
-        <li>AWS services:</li>
-        <ul id="aws-list">
-          <li>API Gateway</li>
-          <li>Cloud Watch</li>
-          <li>Lambda Functions</li>
-          <li>RDS</li>
+
+    <div id="img-wrapper">
+      <img height="249px" width="249px" src="https://drive.google.com/uc?id=1GJrXk9C-B8SqGRx7Q722ko_5DW6Zi9YJ" id="profile-pic">
+    </div>
+  </section>
+
+  <section class="about-section" id="about-section">
+    <h1 id="what-i-do">What I do</h1>
+    <div id="third-underline"></div>
+    <div id="info-wrapper">
+      <div>
+        <h5 id="what-i-do-category">Web Development</h5>
+        <div id="dev-info">
+        <p id="info-title">Full-stack development:</p>
+        <ul id="dev-list">
+          <li>Ruby on Rails</li>
+          <li>ReactJS</li>
+          <li>MobX</li>
+          <li>Bootstrap</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>SQL</li>
         </ul>
-      </ul>
+        <p id="info-title">Testing:</p>
+        <ul id="dev-list">
+          <li>Jest</li>
+          <li>Mocha</li>
+          <li>Chai</li>
+          <li>Sinon</li>
+          <li>Selenium</li>
+        </ul>
+      </div>
+      </div>
+      <div>
+        <h5 id="what-i-do-category">App Development</h5>
+        <div id="dev-info">
+        <p id="info-title">IOS and Android development:</p>
+        <ul id="dev-list">
+          <li>React Native</li>
+          <li>JavaScript</li>
+          <li>Firebase</li>
+          <li>NodeJS</li>
+          <li>Python</li>
+          <li>AWS services:</li>
+          <ul id="aws-list">
+            <li>API Gateway</li>
+            <li>Cloud Watch</li>
+            <li>Lambda Functions</li>
+            <li>RDS</li>
+          </ul>
+        </ul>
+      </div>
+      </div>
+      <div>
+        <h5 id="what-i-do-category">Tools Used</h5>
+        <div id="dev-info">
+        <p id="info-title">IDEs:</p>
+        <ul id="dev-list">
+          <li>VS Code</li>
+          <li>RubyMine</li>
+          <li>Atom</li>
+          <li>SublimeText</li>
+        </ul>
+        <p id="info-title">Productivity:</p>
+        <ul id="dev-list">
+          <li>GIT</li>
+          <li>GitHub</li>
+          <li>Trello</li>
+          <li>Slack</li>
+          <li>G-Suite</li>
+        </ul>
+        <p id="info-title">Other:</p>
+        <ul id="dev-list">
+          <li>AWS Redshift</li>
+          <li>Postman</li>
+          <li>Circle CI</li>
+          <li>OpenSSL</li>
+          <li>OpenSSH</li>
+          <li>StrongSwan</li>
+          <li>Bash Scripts</li>
+          <li>WireShark</li>
+        </ul>
+      </div>
+      </div>
     </div>
+    <a href="#projects" id="button">see my work</a>
+  </section>
+
+  <section class="who-i-am-section" id="who-i-am-section">
+    <h1 id="who-i-am-header">Who I am</h1>
+    <div id="third-underline"></div>
+    <div id="blurb-wrapper">
+      <h5 id="blurb">Developer based out of Santa Barbara, CA</h5>
     </div>
-    <div>
-      <h5 id="what-i-do-category">Tools Used</h5>
-      <div id="dev-info">
-      <p id="info-title">IDEs:</p>
-      <ul id="dev-list">
-        <li>VS Code</li>
-        <li>RubyMine</li>
-        <li>Atom</li>
-        <li>SublimeText</li>
-      </ul>
-      <p id="info-title">Productivity:</p>
-      <ul id="dev-list">
-        <li>GIT</li>
-        <li>GitHub</li>
-        <li>Trello</li>
-        <li>Slack</li>
-        <li>G-Suite</li>
-      </ul>
-      <p id="info-title">Other:</p>
-      <ul id="dev-list">
-        <li>AWS Redshift</li>
-        <li>Postman</li>
-        <li>Circle CI</li>
-        <li>OpenSSL</li>
-        <li>OpenSSH</li>
-        <li>StrongSwan</li>
-        <li>Bash Scripts</li>
-        <li>WireShark</li>
-      </ul>
+    <img width="244px" height="406px" src="https://drive.google.com/uc?id=1_6k-hiGIzKUXzoNg7RbY5KaR4jzUlNE7" id="who-i-am-pic">
+    <p id="who-i-am-details">
+      I currently live in Santa Barbara, CA with my wife and 7 month old. When I am not working I like to dabble in personal projects, expand my programming knowledge with learning, go on family walks, or read.
+    </p>
+    <p id="who-i-am-details">
+      I am passionate about both app and web development. I really enjoy finding the solution to difficult problems. When I sit down to solve a problem, I tend to keep working until I figure out the best solution.
+    </p>
+  </section>
+
+  <section class="projects" id="projects">
+    <h1 class="project-title" id="project-title">My Work</h1>
+    <div id="third-underline"></div>
+    <div id="projects-wrapper">
+      <a href="https://treatfinancial.com/" target="_blank" id="img-link" class="project-tile">
+        <img width="240px" height="240px" src="https://drive.google.com/uc?id=1n1bTWj_C8EvP8s4-BlHDPDSwngNGjLjA" id="portfolio-pic">
+      </a>
+      <a href="https://codepen.io/LucasShaffer/full/qBOLQXp" target="_blank" id="img-link" class="project-tile">
+        <img width="240px" height="240px" src="https://drive.google.com/uc?id=1BW5BDTNjR6ya3IsC6e6SkvmfviGsDtd4" id="portfolio-pic">
+      </a>
+      <a href="https://codepen.io/LucasShaffer/full/NNrjRb" target="_blank" id="img-link" class="project-tile">
+        <img width="240px" height="240px" src="https://drive.google.com/uc?id=1_GhoIuLUzm-8ayr14WtpsvsA-BU-4i3b" id="portfolio-pic">
+      </a>
+      <a href="https://codepen.io/LucasShaffer/full/LYpNxKw" target="_blank" id="img-link" class="project-tile">
+        <img width="240px" height="240px" src="https://drive.google.com/uc?id=12_4760ql6MY0f02S6pj1cxiZ51ab2vMI" id="portfolio-pic">
+      </a>
+      <a href="https://codepen.io/LucasShaffer/full/oNjLjgd" target="_blank" id="img-link" class="project-tile">
+        <img width="240px" height="240px" src="https://drive.google.com/uc?id=1wVzcYHa2Qy3YdbmQ32DoNXkdfc9_Iya0" id="portfolio-pic">
+      </a>
+      <a href="https://github.com/LucasShaffer/todoist-clone" target="_blank" id="img-link" class="project-tile">
+        <img width="240px" height="240px" src="https://drive.google.com/uc?id=18jUteMZj_G-pKixepdFeMjQVHuk8zM4C" id="portfolio-pic">
+      </a>
     </div>
+  </section>
+
+  <footer id="footer">
+    <span id="e-mail"><a href="mailto:someone@example.com">shafferlucas@gmail.com</a></span>
+    <div id="icon-wrapper">
+      <a id="profile-link" href="https://www.linkedin.com/in/lucas-shaffer/" target="_blank">
+        <i class="fa fa-linkedin" id="footer-icon" aria-hidden="true"></i>
+      </a>
+      <a id="profile-link" href="https://github.com/lucasshaffer" target="_blank">
+        <i class="fa fa-github" id="footer-icon" aria-hidden="true"></i>
+      </a>
+      <a id="profile-link" href="https://codepen.io/LucasShaffer" target="_blank">
+        <i class="fa fa-codepen" id="footer-icon" aria-hidden="true"></i>
+      </a>
     </div>
-  </div>
-  <a href="#projects" id="button">see my work</a>
-</section>
+    <span id="closeout">&lt;/dev&gt;</span>
 
-<section class="who-i-am-section" id="who-i-am-section">
-  <h1 id="who-i-am-header">Who I am</h1>
-  <div id="third-underline"></div>
-  <div id="blurb-wrapper">
-    <h5 id="blurb">Developer based out of Santa Barbara, CA</h5>
-  </div>
-  <img width="244px" height="406px" src="https://drive.google.com/uc?id=1_6k-hiGIzKUXzoNg7RbY5KaR4jzUlNE7" id="who-i-am-pic">
-  <p id="who-i-am-details">
-    I currently live in Santa Barbara, CA with my wife and 7 month old. When I am not working I like to dabble in personal projects, expand my programming knowledge with learning, go on family walks, or read.
-  </p>
-  <p id="who-i-am-details">
-    I am passionate about both app and web development. I really enjoy finding the solution to difficult problems. When I sit down to solve a problem, I tend to keep working until I figure out the best solution.
-  </p>
-</section>
-
-<section class="projects" id="projects">
-  <h1 class="project-title" id="project-title">My Work</h1>
-  <div id="third-underline"></div>
-  <div id="projects-wrapper">
-    <a href="https://treatfinancial.com/" target="_blank" id="img-link" class="project-tile">
-      <img width="240px" height="240px" src="https://drive.google.com/uc?id=1n1bTWj_C8EvP8s4-BlHDPDSwngNGjLjA" id="portfolio-pic">
-    </a>
-    <a href="https://codepen.io/LucasShaffer/full/qBOLQXp" target="_blank" id="img-link" class="project-tile">
-      <img width="240px" height="240px" src="https://drive.google.com/uc?id=1BW5BDTNjR6ya3IsC6e6SkvmfviGsDtd4" id="portfolio-pic">
-    </a>
-    <a href="https://codepen.io/LucasShaffer/full/NNrjRb" target="_blank" id="img-link" class="project-tile">
-      <img width="240px" height="240px" src="https://drive.google.com/uc?id=1_GhoIuLUzm-8ayr14WtpsvsA-BU-4i3b" id="portfolio-pic">
-    </a>
-    <a href="https://codepen.io/LucasShaffer/full/LYpNxKw" target="_blank" id="img-link" class="project-tile">
-      <img width="240px" height="240px" src="https://drive.google.com/uc?id=12_4760ql6MY0f02S6pj1cxiZ51ab2vMI" id="portfolio-pic">
-    </a>
-    <a href="https://codepen.io/LucasShaffer/full/oNjLjgd" target="_blank" id="img-link" class="project-tile">
-      <img width="240px" height="240px" src="https://drive.google.com/uc?id=1wVzcYHa2Qy3YdbmQ32DoNXkdfc9_Iya0" id="portfolio-pic">
-    </a>
-    <a href="https://github.com/LucasShaffer/todoist-clone" target="_blank" id="img-link" class="project-tile">
-      <img width="240px" height="240px" src="https://drive.google.com/uc?id=18jUteMZj_G-pKixepdFeMjQVHuk8zM4C" id="portfolio-pic">
-    </a>
-  </div>
-</section>
-
-<footer id="footer">
-  <span id="e-mail"><a href="mailto:someone@example.com">shafferlucas@gmail.com</a></span>
-  <div id="icon-wrapper">
-    <a id="profile-link" href="https://www.linkedin.com/in/lucas-shaffer/" target="_blank">
-      <i class="fa fa-linkedin" id="footer-icon" aria-hidden="true"></i>
-    </a>
-    <a id="profile-link" href="https://github.com/lucasshaffer" target="_blank">
-      <i class="fa fa-github" id="footer-icon" aria-hidden="true"></i>
-    </a>
-    <a id="profile-link" href="https://codepen.io/LucasShaffer" target="_blank">
-      <i class="fa fa-codepen" id="footer-icon" aria-hidden="true"></i>
-    </a>
-  </div>
-  <span id="closeout">&lt;/dev&gt;</span>
-
-</footer>
+  </footer>
+</body>
