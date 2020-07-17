@@ -10,7 +10,6 @@
   position: fixed;
   top: 0;
   display: block;
-  zindex: 99;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -139,7 +138,7 @@
   color: #14CFAE;
 }
   
-#third-underline {
+.third-underline {
   width: calc(33vw);
   border: 1px solid grey;
   margin: 20px 0px;
@@ -219,24 +218,34 @@
   color: #303030;
   letter-spacing: 0px;
   font-weight: 900;
+  position: relative;
+  right: 250px;
+  top: 100px;
+  height: 0px;
+}
+
+#who-i-am-underline {
+  display: none;
 }
 
 #blurb-wrapper {
   margin-top: 10px;
-  width: 267px;
-  height: 99px;
+  width: 777px;
+  height: 49px;
   background-color: #16E0BD;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  top: 150px;
 }
 
 #blurb {
-  width: 85%;
+  width: 95%;
   font-size: 24px;
   line-height: 24px;
   font-weight: 300;
-  text-align: center;
+  text-align: left;
   font-family: 'Source Code Pro', sans-serif;
   letter-spacing: 0px;
   color: #303030;
@@ -245,17 +254,29 @@
 #who-i-am-pic {
   margin: 10px 0px;
   box-shadow: 5px 6px 24px #00000066;
+  position: relative;
+  left: 225px;
+  top: -60px;
+  z-index: 99;
 }
 
-#who-i-am-details {
+#who-i-am-details-wrapper{
+  position: relative;
+  width: 500px;
+  right: 120px;
+  top: -270px;
+  height: 0px;
+}
+
+.who-i-am-details {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
   font-size: 18px;
-  line-heigt: 24px;
+  line-height: 24px;
   letter-spacing: 0px;
   color: #303030;
   width: 80%;
-  text-align: center;
+  text-align: left;
   margin: 10px 0px;
 }
 
@@ -362,7 +383,49 @@
     flex-direction: column;
     align-items: center;
   }
-  
+
+  #who-i-am-header {
+    right: 0px;
+    top: 0px;
+    height: auto;
+  }
+
+  #who-i-am-underline {
+    display: block;
+  }
+
+  #blurb-wrapper {
+    width: 267px;
+    height: 99px;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+  }
+
+  #blurb {
+    width: 85%;
+    text-align: center;
+  }
+
+  #who-i-am-pic {
+    left: 0;
+    top: 0;
+  }
+
+  .who-i-am-details {
+    text-align: center;
+  }
+
+  #who-i-am-details-wrapper{
+    width: auto;
+    right: 0px;
+    top: 0px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   #info-wrapper {
     flex-direction: column;
     width: auto;
