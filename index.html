@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <head>
-  <meta content='width=device-width, initial-scale=1' name='viewport'/>
+  <meta
+    name="description"
+    content="This website is the personal portfolio of Lucas Shaffer."
+  />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/v4-shims.css">
@@ -11,7 +17,7 @@
 <body>
   <nav id="navbar" class="nav">
     <p id="header">&lt;dev id="lucas"&gt;</p>
-    <button id="menu-button" class="dropbtn" onclick="toggleMenu()">
+    <button id="menu-button" class="dropbtn" aria-label="Menu Button" onclick="toggleMenu()">
       <i class="fa fa-bars"></i>
     </button>
     <div id="myDropdown" class="dropdown-content">
@@ -101,29 +107,29 @@
     <h2 id="who-i-am-header">Who I am</h2>
     <div class="third-underline" id="who-i-am-underline"></div>
     <div id="blurb-wrapper">
-      <h5 id="blurb">Developer based out of SLT, CA</h5>
+      <h3 id="blurb">Developer based out of SLT, CA</h5>
     </div>
     <img width="244px" height="406px" src="./images/Lucas_Winter.webp" id="who-i-am-pic" alt="Picture of me outside in the winter.">
-    <div id="who-i-am-details-wrapper">
+    <article id="who-i-am-details-wrapper">
       <p class="who-i-am-details">
         I currently live in South Lake Tahoe, CA with my wife and 2 kids. When I am not working I like to dabble in personal projects, expand my programming knowledge with learning, go on family walks, or read.
       </p>
       <p class="who-i-am-details">
         I am passionate about both app and web development. I really enjoy finding the solution to difficult problems. When I sit down to solve a problem, I tend to keep working until I figure out the best solution.
       </p>
-    </div>
+    </article>
   </section>
 
   <section class="projects" id="projects">
     <h2 class="project-title" id="project-title">My Work</h2>
     <div class="third-underline"></div>
     <div id="projects-wrapper">
-      <a href="javascript:void(0)" id="img-link" class="project-tile">
+      <div class="project-tile">
         <img width="240px" height="240px" src="./images/Treat_Financial.webp" class="square-pic" alt="Screenshot of my Treat Financial App.">
-      </a>
-      <a href="https://github.com/LucasShaffer/todoist-clone" target="_blank" id="img-link" class="project-tile">
+      </div>
+      <div class="project-tile">
         <img width="240px" height="240px" src="./images/Todoist_Clone.webp" class="square-pic" alt="Screenshot of the todoist clone.">
-      </a>
+      </div>
     </div>
   </section>
 

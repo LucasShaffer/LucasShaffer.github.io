@@ -323,7 +323,7 @@
   justify-content: center;
 }
 
-#img-link {
+.project-tile {
   height: 240px;
   margin: 10px;
 }
