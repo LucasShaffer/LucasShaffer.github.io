@@ -1,10 +1,14 @@
 function toggleMenu(){
-  document.getElementById("myDropdown").classList.toggle("show");
-  document.getElementById("myDropdown").classList.toggle("dontshow");
+  if (!document.getElementById("myDropdown").classList.contains('show')) {
+    document.getElementById("myDropdown").classList.add('show');
+  } else {
+    document.getElementById("myDropdown").classList.remove('show');
+  }
+  // document.getElementById("myDropdown").classList.toggle("show");
 }
 
 window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
+  if (!event.target.closest('.dropbtn')) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
